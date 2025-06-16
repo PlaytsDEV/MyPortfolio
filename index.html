@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
 
-    <!-- External Styles -->
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
-    <!-- AOS CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+  <!-- External Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <header data-aos="fade-down">
-        <div class="navigation-bar">
-            <div class="logo-playts">
-                <img src="Images/Playts LOGO.svg" alt="Playts LOGO">
-                <p>PLAYTS</p>
-            </div>
-            <nav>
-                <a href="#home-section">HOME</a>
-                <a href="#about-section">ABOUT</a>
-                <a href="#skills-section">SKILLS</a>
-                <a href="#service-section">SERVICES</a>
-                <a href="#projects-section">PROJECTS</a>
-                <a href="#contact-section">CONTACT</a>
-            </nav>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section id="home-section" class="home-section" data-aos="fade-up">
-        <div class="hero-container">
-            <div class="hero-text" data-aos="fade-right">
-                <h1>Hi, I'm Leander</h1>
-                <p>Designing the future with code — Web, Mobile</p>
-                <p>& AI Experiences</p>
-            </div>
+   <!-- HEADER / NAV -->
+  <header class="navigation-bar">
+    <div class="logo-playts">
+      <img src="Images/Playts LOGO.svg" alt="Playts LOGO" />
+      <p>PLAYTS</p>
+    </div>
+    <nav id="navLinks" class="nav-links">
+      <a href="#home-section">HOME</a>
+      <a href="#about-section">ABOUT</a>
+      <a href="#skills-section">SKILLS</a>
+      <a href="#service-section">SERVICES</a>
+      <a href="#projects-section">PROJECTS</a>
+      <a href="#contact-section">CONTACT</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  </header>
 
-            <div class="hero-design" data-aos="fade-left">
-                <img src="Images/AI Head.svg" alt="AI Head">
-            </div>
-        </div>
-    </section>
+  <!-- HERO SECTION -->
+  <section id="home-section" class="home-section" data-aos="fade-up">
+    <div class="hero-container">
+      <div class="hero-text" data-aos="fade-right">
+        <h1>Hi, I'm Leander</h1>
+        <p>Designing the future with code — Web, Mobile & AI Experiences</p>
+      </div>
+      <div class="hero-design" data-aos="fade-left">
+        <img src="Images/AI Head.svg" alt="AI Head" />
+      </div>
+    </div>
+  </section>
+
+
 
     <!-- About Section -->
     <section id="about-section" class="about-section" data-aos="fade-up">
