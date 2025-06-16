@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- External Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header data-aos="fade-down">
+        <div class="navigation-bar">
+            <div class="logo-playts">
+                <img src="Images/Playts LOGO.svg" alt="Playts LOGO">
+                <p>PLAYTS</p>
+            </div>
+            <nav>
+                <a href="#home-section">HOME</a>
+                <a href="#about-section">ABOUT</a>
+                <a href="#skills-section">SKILLS</a>
+                <a href="#service-section">SERVICES</a>
+                <a href="#projects-section">PROJECTS</a>
+                <a href="#contact-section">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home-section" class="home-section" data-aos="fade-up">
+        <div class="hero-container">
+            <div class="hero-text" data-aos="fade-right">
+                <h1>Hi, I'm Leander</h1>
+                <p>Designing the future with code — Web, Mobile</p>
+                <p>& AI Experiences</p>
+            </div>
+
+            <div class="hero-design" data-aos="fade-left">
+                <img src="Images/AI Head.svg" alt="AI Head">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section" class="about-section" data-aos="fade-up">
+        <div class="about-container">
+            <div class="picture-container" data-aos="zoom-in">
+                <img src="Images/MY PICTURE.svg" alt="Leander Ponce's Picture">
+            </div>
+            <div class="about-me-text" data-aos="fade-left">
+                <h1>ABOUT ME</h1>
+                <p>I'm Jhairo, a BSIT student passionate about building intelligent and creative digital experiences. I specialize in web and mobile development, and I also create AI-driven content that explores imaginative and futuristic ideas.</p>
+                <p>My work blends technical skill with curiosity—I enjoy crafting tools, stories, and interfaces that not only function well, but inspire users to think differently.</p>
+                <p>Outside of coding, I’m a varsity athlete and a digital storyteller, always looking for the next challenge or idea worth exploring.</p>
+
+                <button>DOWNLOAD CV</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills-section" class="skills-section" data-aos="fade-up">
+    <div class="skills-container">
+        <h1 class="section-title">SKILLS</h1>
+
+        <!-- Label: Professional Skills -->
+        <h2 class="skills-label">PROFESSIONAL SKILLS</h2>
+        <!-- All professional skill-cards animate together with the parent -->
+        <div class="skills-grid">
+            <div class="skill-card"><h2>HTML</h2><p>Experienced</p></div>
+            <div class="skill-card"><h2>CSS</h2><p>Experienced</p></div>
+            <div class="skill-card"><h2>JavaScript</h2><p>Basic</p></div>
+            <div class="skill-card"><h2>Java</h2><p>Intermediate</p></div>
+            <div class="skill-card"><h2>MySQL</h2><p>Intermediate</p></div>
+            <div class="skill-card"><h2>Figma</h2><p>Proficient</p></div>
+            <div class="skill-card"><h2>Canva</h2><p>Proficient</p></div>
+        </div>
+
+        <!-- Label: Soft Skills -->
+        <h2 class="skills-label">SOFT SKILLS</h2>
+        <!-- All soft skill-cards also animate with the same parent trigger -->
+        <div class="skills-grid">
+            <div class="skill-card soft-skill"><h2>Teamwork</h2><p>Strong collaborator</p></div>
+            <div class="skill-card soft-skill"><h2>Creativity</h2><p>Innovative thinker</p></div>
+            <div class="skill-card soft-skill"><h2>Time Management</h2><p>Efficient under deadlines</p></div>
+        </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+<section id="service-section" class="service-section" aria-label="My Services" data-aos="fade-up">
+    <h1>SERVICES</h1>
+    <div class="services-container">
+        <div class="service-card">
+            <img src="Images/Service 1.svg" alt="Illustration representing AI content creation using ChatGPT">
+            <h2>AI CONTENT CREATION</h2>
+            <p>I create engaging and imaginative content using AI tools like ChatGPT. From YouTube scripts to creative concepts, I specialize in blending storytelling with technology.</p>
+        </div>
+        <div class="service-card middle-card">
+            <img src="Images/Service 2.svg" alt="Illustration representing UI/UX design using Figma and Canva">
+            <h2>UI/UX DESIGN</h2>
+            <p>I design intuitive and clean user interfaces using tools like Figma and Canva. I focus on usability, clarity, and visual appeal for websites and apps.</p>
+        </div>
+        <div class="service-card">
+            <img src="Images/Service 3.svg" alt="Java project development with MySQL backend">
+            <h2>JAVA + MySQL PROJECTS</h2>
+            <p>I build functional desktop applications using Java (NetBeans) and MySQL for backend databases. Ideal for management systems, booking apps, or academic projects.</p>
+        </div>
+    </div>
+</section>
+
+<section class="projects-section" id="projects-section" data-aos="fade-up">
+  <h1 class="section-title">PROJECTS</h1>
+
+  <!-- Mobile & Web Projects -->
+  <h2 class="category-title">MOBILE & WEB PROJECTS</h2>
+  <div class="project-gallery">
+    <div class="project-card">
+      <img src="Images/project1.png" alt="Shinobi Website" />
+      <div class="project-content">
+        <h3>Shinobi Website</h3>
+        <p>Inspired by Naruto, this responsive web app highlights modern UI design using HTML and CSS.</p>
+        <a href="Ponce_FA1/index.html" class="view-btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="Images/project2.png" alt="EstiMate App" />
+      <div class="project-content">
+        <h3>EstiMate App</h3>
+        <p>A mobile budgeting app that inspires users to save. Built with Java and Android Studio.</p>
+        <a href="https://github.com/PlaytsDEV/EstiMate" class="view-btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="Images/project3.png" alt="Airline Reservation System" />
+      <div class="project-content">
+        <h3>Airline Reservation System</h3>
+        <p>A full-featured reservation system with login, booking, and admin panel using Java Swing + MySQL.</p>
+        <a href="https://github.com/PlaytsDEV/AirlineBookingSystem" class="view-btn">View Project</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Content Projects -->
+  <h2 class="category-title">AI CONTENT PROJECTS</h2>
+  <div class="project-gallery">
+    <div class="project-card">
+      <img src="Images/reel1.png" alt="Imagine if the Library of Alexandria was Never Destroyed" />
+      <div class="project-content">
+        <h3>Imagine if the Library of Alexandria was Never Destroyed</h3>
+        <p>Explore a world where ancient knowledge shaped the modern age.</p>
+        <a href="https://youtube.com/shorts/Of4ndTRUDcQ" class="view-btn" target="_blank">Watch Reel</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="Images/reel2.png" alt="Top 5 World Destroyers" />
+      <div class="project-content">
+        <h3>Top 5 World Destroyers</h3>
+        <p>A countdown of the most terrifying forces that almost end civilization.</p>
+        <a href="https://youtube.com/shorts/oXdxCqLxLUA" class="view-btn" target="_blank">Watch Reel</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="Images/reel3.png" alt="Imagine if Money Grew on Trees" />
+      <div class="project-content">
+        <h3>Imagine if Money Grew on Trees</h3>
+        <p>What would society look like if money was literally everywhere?</p>
+        <a href="https://youtube.com/shorts/rL1tVXno6gI" class="view-btn" target="_blank">Watch Reel</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact-section" class="contact-section" data-aos="fade-up">
+  <div class="contact-container">
+    <h2 class="contact-title">Get in Touch</h2>
+    <p class="contact-intro">
+      Whether you have a project idea, collaboration request, or just want to say hello, feel free to drop a message below.
+    </p>
+    <form class="contact-form" action="#" method="post">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p>Email: <a href="mailto:leander.ponce.dev@gmail.com">leander.ponce.dev@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/leander-ponce-26737a34a/" target="_blank">Leander Ponce</a></p>
+      <p>GitHub: <a href="https://github.com/PlaytsDEV" target="_blank">PlaytsDEV</a></p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="hero-bottom-quote" data-aos="fade-up">
+        <p>CREATING | CODING | IMAGINING THE FUTURE</p>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Your Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
